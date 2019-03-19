@@ -7,13 +7,19 @@
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  <packaging>pom</packaging>
-  
-  <artifactId>common</artifactId>
-  <name>common</name>
-  <modules>
-  	<module>common-core</module>
-  	<module>commom-start</module>
-  </modules>
+  <artifactId>wechat</artifactId>
+  <packaging>war</packaging>
+  <name>wechat Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>wechat</finalName>
+  </build>
 </project>
